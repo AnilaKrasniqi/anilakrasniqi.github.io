@@ -1,0 +1,125 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    position:  absolute;
+    width: 100%;
+}
+header:hover{
+    background-color: white;
+}
+nav ,ul, li{
+    display: inline-block;
+}
+li{
+    padding: 23px;
+}
+nav a:hover {
+    color: #305252;
+}
+a{ 
+    text-decoration: none;
+    color: black;
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
+   
+}
+.ak-background-image {
+     background-image: url('image/photo1.jpg');
+    background-size: cover;
+    height: 750px;
+    background-position: bottom;
+    background-attachment: fixed; 
+    display: flex;
+    align-items: center;
+    padding: -50px;
+  }
+h2{
+    color: white;
+    border: 0px solid gray;
+    border-radius: 4px;
+    background-color: lightgray;
+    margin-left: 310px;
+}
+img{
+    height: 330px;
+    margin-left: 170px;
+}
+.ak-about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.ak-about-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ak-about-text img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+#bedroom{
+   color: black;
+   background-color: transparent;
+   font-family: 'Raleway', sans-serif;
+   font-weight: bold;
+   border: 0px solid gray;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.ak-footer-table {
+    display: table;
+    width: 100%;
+}
+
+.ak-footer-row {
+    display: table-row;
+}
+
+.ak-footer-column {
+    display: table-cell;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ak-li {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: flex;
+    }
+    .ak-about-text {
+         text-align: start;
+    }
+    img {
+        display: none;
+    }
+    .ak-footer-row {
+        flex-direction: column;
+    }
+    .ak-footer-column {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+

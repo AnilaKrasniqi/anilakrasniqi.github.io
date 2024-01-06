@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: gray; 
+    
+}
+nav ,ul, li{
+    display: inline-block;
+}
+li{
+    padding: 23px;
+}
+a{  text-decoration: none;
+    color: white;
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
+    
+}
+nav a:hover {
+    color: #305252;
+}
+.dhomat{
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
+    color: white;
+}

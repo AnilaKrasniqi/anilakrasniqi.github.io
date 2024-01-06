@@ -1,0 +1,138 @@
+#Livingroom {
+  background-color:  gray;
+  padding: 0px;
+  font-family: Arial;
+  margin: 0px;
+}
+#Kitchen{
+  background-color:  rgb(168, 158, 137);
+  padding: 0px;
+  font-family: Arial;
+  margin: 0px;
+}
+#Hallway{
+  background-color:  rgb(124, 123, 100);
+  padding: 0px;
+  font-family: Arial;
+  margin: 0px;
+}
+#Bathroom{
+  background-color:  gray;
+  padding: 0px;
+  font-family: Arial;
+  margin: 0px;
+}
+header {
+  background-color: #333333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+h1, h4{
+  text-align: center;
+}
+
+.row  .column {
+    padding: 8px;
+}
+.column {
+    float: left;
+    width: 25%;
+}
+.main{
+    box-sizing: border-box;
+    padding: 30px;
+   
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ak-video-container {
+  display: block;
+  margin-left: 80px;
+
+}
+video:hover {
+  transform: scale(1.2);
+}
+video {
+  width: 47%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+img {
+  border-radius: 11px;
+  width: 320px;
+  height: 180px;
+}
+.ak img{
+  width: 100%;
+  height: 650px;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 110px;
+}
+#bedroom{
+ color: white;
+ background-color: #333;
+ font-family: 'Raleway', sans-serif;
+ font-weight: bold;
+ border: 0px solid gray;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.ak-footer-table {
+  display: table;
+  width: 100%;
+}
+
+.ak-footer-row {
+  display: table-row;
+}
+
+.ak-footer-column {
+  display: table-cell;
+  padding: 10px;
+}
+li, a{
+  list-style: none;
+}
+@media (max-width: 768px) {
+  .footer-column {
+      display: block;
+      text-align: left;
+  }
+}
+@media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}

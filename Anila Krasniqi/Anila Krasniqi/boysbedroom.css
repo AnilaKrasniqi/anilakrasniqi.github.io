@@ -1,0 +1,82 @@
+#boysbedroom {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0px;
+    background-color: rgb(36, 38, 53);
+}
+header {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+}
+  
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#bedroom{
+    color: white;
+    background-color: #333;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    border: 0px solid gray;
+}
+.ak-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+article {
+    margin-bottom: 30px;
+}
+h2 {
+    color: white;
+    font-size: 30px;
+}
+p {
+    color: white;
+    
+}
+.ak-image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.ak-image-gallery img {
+    width: 30%;
+    border-radius: 8px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+.ak-video-container {
+    display: block;
+    margin-left: 80px;
+}
+video:hover {
+    transform: scale(1.2);
+}
+video {
+    width: 47%; 
+    height: auto;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+}
